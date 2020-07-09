@@ -26,7 +26,6 @@ class MyDocument extends Document {
               key={i}
             />
           ))}
-          <title>One Hundred Lines</title>
         </Head>
         <body>
           <Main />

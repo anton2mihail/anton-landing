@@ -1,0 +1,19 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.draw-over {
+  display: flex;
+  color: black;
+  opacity: 0.6;
+  justify-content: center;
+  transition: opacity 0.35s ease;
+  font-size: 3.5rem;
+  cursor: pointer;
+  background: none;
+}
+
+.draw-over:hover {
+  opacity: 1;
+}

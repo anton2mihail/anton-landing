@@ -1,6 +1,7 @@
 import App from 'next/app';
 import { Provider as StyletronProvider } from 'styletron-react';
 import { styletron, debug } from '../styletron';
+import '../assets/styles.css';
 
 export default class MyApp extends App {
   render() {
