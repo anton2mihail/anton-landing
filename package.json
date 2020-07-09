@@ -1,0 +1,38 @@
+{
+  "name": "one-hundred-lines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "baseui": "^9.85.0",
+    "eslint-plugin-baseui": "^9.85.0",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styletron-engine-atomic": "^1.4.6",
+    "styletron-react": "^5.2.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anton2mihail/one-hundred-lines.git"
+  },
+  "author": "Anton Lachmaniucu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anton2mihail/one-hundred-lines/issues"
+  },
+  "homepage": "https://github.com/anton2mihail/one-hundred-lines#readme"
+}
