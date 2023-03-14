@@ -36,4 +36,4 @@ jobs:
         with:
           serviceId: ${{ secrets.RENDER_SERVICE_ID }}
           apiKey: ${{ secrets.PROD }}
-          multipleDeployment: false #optional, default true
+
