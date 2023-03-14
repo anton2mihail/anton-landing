@@ -31,9 +31,9 @@ jobs:
     name: Deploy to Render
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger deployment
-        uses: sws2apps/render-deployment@main #consider using pin for dependabot auto update
+      - name: Deploy
+        uses: bankfliptech/deploy-to-render@v1
         with:
           serviceId: ${{ secrets.RENDER_SERVICE_ID }}
           apiKey: ${{ secrets.PROD }}
-
+          deployHookURL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
