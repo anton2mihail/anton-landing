@@ -27,3 +27,13 @@ jobs:
     - run: rm -rf node_modules && yarn install --frozen-lockfile
     - run: yarn build --if-present
     - run: yarn test
+  main:
+    name: Deploy to Render
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger deployment
+        uses: sws2apps/render-deployment@main #consider using pin for dependabot auto update
+        with:
+          serviceId: ${{ secrets.RENDER_SERVICE_ID }}
+          apiKey: ${{ secrets.PROD }}
+          multipleDeployment: false #optional, default true
