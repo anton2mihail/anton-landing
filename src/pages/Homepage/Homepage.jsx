@@ -6,6 +6,7 @@ function Homepage() {
   return (
     <StyledHomepage>
       <div>
+        Test
         <Navbar />
       </div>
     </StyledHomepage>
