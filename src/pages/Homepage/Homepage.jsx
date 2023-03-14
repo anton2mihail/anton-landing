@@ -1,11 +1,13 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import { StyledHomepage } from './Homepage.styles.tsx';
+import StyledHomepage from './Homepage.styles';
 
 function Homepage() {
   return (
     <StyledHomepage>
-      <Navbar />
+      <div>
+        <Navbar />
+      </div>
     </StyledHomepage>
   );
 }

@@ -15,6 +15,7 @@
         "sourceType": "module"
     },
     "plugins": [
+        "@emotion",
         "react"
     ],
     "rules": {
@@ -22,6 +23,14 @@
             "error",
             {
                 "devDependencies": true
+            }
+        ],
+        "react/no-unknown-property": [
+            "error",
+            {
+                "ignore": [
+                    "css"
+                ]
             }
         ]
     }
