@@ -1,0 +1,12 @@
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatarNavbar {
+    align-self: center;
+}
+
+.actionsNavbar {
+    align-self: center;
+}
