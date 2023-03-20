@@ -1,3 +1,1 @@
-export type IntroProps = {
-
-}
+export type IntroProps = {};

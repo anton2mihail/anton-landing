@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '@/components/Intro/Intro.module.css';
-import { IntroProps } from './intro.types';
+// import IntroProps from './Intro.types';
 import {
   Card,
   CardHeader,
@@ -16,7 +16,7 @@ import {
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
 import { Link } from '@chakra-ui/next-js';
 
-function Intro({}: IntroProps) {
+function Intro() {
   return (
     <div className={styles.introContainer}>
       <div className={styles.introText}>
