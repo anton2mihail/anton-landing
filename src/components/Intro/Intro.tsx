@@ -1,17 +1,6 @@
 import React from 'react';
 import styles from '@/components/Intro/Intro.module.css';
-import {
-  Card,
-  CardHeader,
-  Heading,
-  CardBody,
-  CardFooter,
-  Button,
-  Text,
-  Image,
-  Icon,
-  Avatar,
-} from '@chakra-ui/react';
+import { Heading, Button, Text, Image, Icon, Avatar } from '@chakra-ui/react';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
 import { Link } from '@chakra-ui/next-js';
 
