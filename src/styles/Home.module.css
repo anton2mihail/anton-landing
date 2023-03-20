@@ -1,35 +1,31 @@
 .home {
-    display: grid;
-    grid-template-columns: 0.2fr 1fr 0.2fr;
-    grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: ". nav ."
-        ". intro ."
-        ". project ."
-        ". project ."
-        ". project ."
-        ". contact .";
-    height: 100%;
-    width: 100%;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 0.1fr;
+  grid-template-rows: 0.2fr 1.3fr 1fr 1fr 1fr;
+  grid-template-areas:
+    '. nav .'
+    '. intro .'
+    '. project .'
+    '. project .'
+    '. contact .';
+  height: 100%;
+  width: 100%;
 }
 
 .navbar {
-    grid-area: nav;
-    min-height: 50px;
-    display: grid;
+  grid-area: nav;
+  min-height: 50px;
+  display: grid;
 }
 
 .intro {
-    grid-area: intro;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "intro image";
+  grid-area: intro;
 }
 
 .projects {
-    grid-area: project;
+  grid-area: project;
 }
 
 .contact {
-    grid-area: contact;
+  grid-area: contact;
 }

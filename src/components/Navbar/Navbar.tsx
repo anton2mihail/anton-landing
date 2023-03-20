@@ -10,45 +10,46 @@ function Navbar({ activeSection, setActiveSection }: NavbarProps) {
 	};
 
 	return (
-        <div className={styles.navbarContainer}>
-            <div className={styles.avatarNavbar}>
-                <Avatar mr={2} size='xs' name='Toni' src='/public/lightbluecircleicon.png'/> Toni
-            </div>
-            <div className={styles.actionsNavbar}>
-			<Button
-				style={styleByActive('home')}
-				onClick={() => {
-					setActiveSection('home');
-					handleClickScroll('home', 'smooth');
-				}}
-				colorScheme="gray"
-				variant="ghost"
-			>
-				Home
-			</Button>
-			<Button
-				style={styleByActive('projects')}
-				onClick={() => {
-					setActiveSection('projects');
-					handleClickScroll('projects', 'smooth');
-				}}
-				colorScheme="gray"
-				variant="ghost"
-			>
-				Projects
-			</Button>
-			<Button
-				style={styleByActive('contact')}
-				onClick={() => {
-					setActiveSection('contact');
-					handleClickScroll('contact', 'smooth');
-				}}
-				colorScheme="gray"
-				variant="ghost"
-			>
-				Content
-                </Button>
-                </div>
+		<div className={styles.navbarContainer}>
+			<div className={styles.avatarNavbar}>
+				<Avatar mr={2} size="xs" name="Toni" src="/lightbluecircleicon.png" />{' '}
+				Toni
+			</div>
+			<div className={styles.actionsNavbar}>
+				<Button
+					style={styleByActive('home')}
+					onClick={() => {
+						setActiveSection('home');
+						handleClickScroll('home', 'smooth');
+					}}
+					colorScheme="gray"
+					variant="ghost"
+				>
+					Home
+				</Button>
+				<Button
+					style={styleByActive('projects')}
+					onClick={() => {
+						setActiveSection('projects');
+						handleClickScroll('projects', 'smooth');
+					}}
+					colorScheme="gray"
+					variant="ghost"
+				>
+					Projects
+				</Button>
+				<Button
+					style={styleByActive('contact')}
+					onClick={() => {
+						setActiveSection('contact');
+						handleClickScroll('contact', 'smooth');
+					}}
+					colorScheme="gray"
+					variant="ghost"
+				>
+					Content
+				</Button>
+			</div>
 		</div>
 	);
 }
