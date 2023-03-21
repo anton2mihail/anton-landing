@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from '@/styles/Home.module.css';
 import Navbar from '@/components/Navbar/Navbar';
 import Intro from '@/components/Intro/Intro';
+import Projects from '@/components/Projects/Projects';
 
 function Home() {
   const [activeSection, setActiveSection] = useState<
@@ -22,7 +23,9 @@ function Home() {
       <div className={styles.intro}>
         <Intro />
       </div>
-      <div id="projects" className={styles.projects}></div>
+      <div id="projects" className={styles.projects}>
+        <Projects />
+      </div>
       <div id="contact" className={styles.contact}></div>
     </div>
   );

@@ -1,0 +1,39 @@
+.projectsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100%;
+}
+
+.project1,
+.project2,
+.project3,
+.project4 {
+  margin-top: 1rem;
+  border-radius: 5%;
+  width: 97%;
+  height: 97%;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.project1 {
+  background-color: #6b5ce5;
+}
+.project2 {
+  background-color: #303443;
+}
+
+.project3 {
+  background-color: #d8dbe3;
+}
+.project4 {
+  background-color: #171717;
+}
+.projectContent {
+  height: 100%;
+  padding: 2rem;
+  transition: transform 0.3s ease-out;
+}
+.projectContent:hover {
+  transform: scale(1.05);
+}
