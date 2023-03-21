@@ -16,6 +16,7 @@
 }
 
 .introText {
+  height: 100%;
   padding: 2rem;
   transition: transform 0.3s ease-out;
   display: grid;
