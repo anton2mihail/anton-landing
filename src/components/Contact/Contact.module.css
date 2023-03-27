@@ -1,0 +1,21 @@
+.contactContainer {
+  padding: 2rem;
+  height: 100%;
+  border-radius: 5%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.7fr 1fr 0.2fr;
+}
+.contactButton {
+  background-color: #1d1d1d !important;
+  color: #fff;
+  height: 50px !important;
+  border-radius: 30px !important;
+  padding-right: auto;
+  padding-left: auto;
+  width: 175px;
+  margin-right: 1rem !important;
+}
+
+/* .linksContainer {
+} */

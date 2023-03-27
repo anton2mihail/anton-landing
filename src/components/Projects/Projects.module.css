@@ -11,9 +11,17 @@
 .project4 {
   margin-top: 1rem;
   border-radius: 5%;
-  width: 97%;
-  height: 97%;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.project1,
+.project3 {
+  margin-right: 0.5rem;
+}
+
+.project2,
+.project4 {
+  margin-left: 0.5rem;
 }
 
 .project1 {
@@ -36,4 +44,13 @@
 }
 .projectContent:hover {
   transform: scale(1.05);
+}
+
+@media (max-width: 950px) {
+  .projectsContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 100%;
+  }
 }

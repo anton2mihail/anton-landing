@@ -1,7 +1,7 @@
 .home {
   display: grid;
   grid-template-columns: 0.1fr 1fr 0.1fr;
-  grid-template-rows: 0.15fr 1fr 2.5fr 1fr;
+  grid-template-rows: 0.15fr 0.8fr 2.5fr 0.7fr;
   grid-template-areas:
     '. nav .'
     '. intro .'
@@ -27,4 +27,19 @@
 
 .contact {
   grid-area: contact;
+}
+
+@media (max-width: 950px) {
+  .home {
+    display: grid;
+    grid-template-columns: 0.05fr 1fr 0.05fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      '. nav .'
+      '. intro .'
+      '. project .'
+      '. contact .';
+    height: 100%;
+    width: 100%;
+  }
 }
