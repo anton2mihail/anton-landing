@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '@/styles/index.module.css';
 import HomePage from './Home/Home';
+import UnderConstruction from '@/components/UnderConstruction/UnderConstruction';
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
         <link rel="icon" href="/lightbluecircleicon.png" />
       </Head>
       <main className={styles.main}>
-        <HomePage />
+        {/* <HomePage /> */}
+        <UnderConstruction />
       </main>
     </>
   );
